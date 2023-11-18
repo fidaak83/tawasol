@@ -1,16 +1,11 @@
 {
   "expo": {
-    "name": "web_view",
-    "slug": "web_view",
+    "name": "Tawasol",
+    "slug": "tawasol_newline",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -21,10 +16,35 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.newline.tawasol",
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "CAMERA",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION", "WRITE_EXTERNAL_STORAGE", "CAMERA_ROLL", "READ_PHONE_STATE", "READ_CONTACTS" ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "aed03d97-e818-43d7-a953-59b1d5470362"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/aed03d97-e818-43d7-a953-59b1d5470362"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location.Hi"
+        }
+      ]
+    ]
   }
 }

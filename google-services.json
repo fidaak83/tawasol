@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "602849456872",
+    "project_id": "newlineexpo-b43b6",
+    "storage_bucket": "newlineexpo-b43b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602849456872:android:b5310b611b13e2512b8f5d",
+        "android_client_info": {
+          "package_name": "com.newline.tawasol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602849456872-nav6b3h7inmk36vhpa9kbtn3fcq0snnn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7S_Uzg0C6D_cLLkDJvCaUgah4qHUnFGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602849456872-nav6b3h7inmk36vhpa9kbtn3fcq0snnn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
